@@ -1,0 +1,39 @@
+Retrostuary, mod de Estuary en estilo Windows 95 para Kodi 21 Omega.
+RubénSDFA1laberot — EspaKodi. https://espakodi.github.io
+
+--------------------------------------------------------------------------
+
+Licencia de este mod
+
+El trabajo propio (cambios de estilo, archivos de ventanas, scripts y los
+assets listados en CREDITS.md como propios) se publica bajo:
+
+    Creative Commons Attribution-ShareAlike 4.0 Unported (CC BY-SA 4.0)
+    http://creativecommons.org/licenses/by-sa/4.0/
+
+--------------------------------------------------------------------------
+
+Licencias heredadas
+
+Retrostuary deriva de Estuary, de phil65 y Piers (equipo de Kodi), y usa
+iconos de Chicago95, de grassmunk y colaboradores. Estos ficheros conservan
+sus licencias originales:
+
+  - Estuary, arte:   CC BY-SA 4.0
+                     http://creativecommons.org/licenses/by-sa/4.0/
+  - Estuary, código: GNU GPL, versión 2.0
+                     https://www.gnu.org/licenses/gpl-2.0
+  - Chicago95:       GNU GPL-3.0-or-later
+                     https://github.com/grassmunk/Chicago95
+
+CC BY-SA 4.0 es compatible con GPL-3.0-or-later y con GPL-2.0 en el sentido de
+la cláusula de compatibilidad copyleft, de modo que la skin completa puede
+distribuirse bajo CC BY-SA 4.0 conservando las licencias originales de los
+ficheros heredados.
+
+--------------------------------------------------------------------------
+
+Aviso sobre el addon
+
+Esta skin es de terceros y se puede desinstalar sin riesgo. No forma parte de
+Kodi ni del equipo de Kodi.

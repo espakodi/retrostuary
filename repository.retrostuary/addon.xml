@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Retrostuary Repository: punto de entrada para instalar y actualizar la skin.
+
+     Este fichero es la FUENTE DE VERDAD del addon de repositorio. build_repo.py
+     lo lee, lo copia a _repo/repository.retrostuary/addon.xml y lo mete en el
+     <addons> del addons.xml. El addons.xml de _repo no se edita a mano: se
+     genera.
+
+     Lo que hay aqui, y por que:
+
+       <extension point="xbmc.addon.repository"> con <dir>: es la unica forma
+       que acepta Kodi 21. El esquema antiguo plano, con <info> como hijo
+       directo de <extension>, se elimino en v20 y el addon se rechaza.
+
+       <info compressed="false">: el atributo compressed esta MUERTO en Kodi
+       actual. El parser de <dir> (ParseDirConfiguration) solo lee checksum,
+       checksum@verify, info, datadir, artdir, hashes, minversion y maxversion.
+       Se pone por convencion, igual que en el repositorio oficial.
+
+       <checksum> SIN atributo verify, y esto es lo importante. La verificacion
+       la controla checksum@verify, no compressed. Sin verify, el md5 solo se
+       compara para decidir "no ha cambiado, no reparsear" y uno equivocado no
+       rompe nada. CON verify, un md5 equivocado hace FetchIndex() -> return
+       false: el repositorio entero queda descartado en silencio, sin aviso en
+       la GUI, solo una linea en kodi.log. Por eso el fichero .md5 tiene que
+       EXISTIR (si da 404, FetchIfChanged() -> FETCH_ERROR y el usuario ve
+       "Could not connect to repository") pero no tiene que ser infalible.
+
+       SIN <hashes>: si se activa, ResolvePathAndHash() exige la cabecera HTTP
+       content-sha256 o un .sha256 lateral junto al zip. GitHub Pages no emite
+       esa cabecera y no vamos a publicar sidecars: devolveria path vacio y el
+       instalador abortaria con "failed to resolve addon install source path".
+
+       <datadir zip="true">: el atributo zip tambien es legacy, el parser solo
+       lee el texto. Se deja por compatibilidad.
+
+     La URL base sale del argumento base-url de build_repo.py, y el script
+     verifica que las tres URLs de aqui coinciden con la que se va a publicar:
+     un dominio mal escrito no se descubre en la tele del usuario, se descubre
+     en el log de este script. -->
+<addon id="repository.retrostuary" name="Retrostuary Repository" version="1.0.0" provider-name="RubénSDFA1laberot">
+	<extension point="xbmc.addon.repository" name="Retrostuary Repository">
+		<dir>
+			<info compressed="false">https://espakodi.github.io/retrostuary/addons.xml</info>
+			<checksum>https://espakodi.github.io/retrostuary/addons.xml.md5</checksum>
+			<datadir zip="true">https://espakodi.github.io/retrostuary/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="es_ES">Repositorio de Retrostuary</summary>
+		<summary lang="en_US">Retrostuary Repository</summary>
+		<description lang="es_ES">Repositorio oficial para instalar y actualizar Retrostuary, skin estilo Windows 95 para Kodi 21 Omega basada en Estuary.</description>
+		<description lang="en_US">Official repository to install and update Retrostuary, a Windows 95 style skin for Kodi 21 Omega based on Estuary.</description>
+		<disclaimer lang="es_ES">Skin de terceros; se puede desinstalar sin riesgo.</disclaimer>
+		<disclaimer lang="en_US">Third-party skin; safe to uninstall.</disclaimer>
+		<platform>all</platform>
+		<license>CC BY-SA 4.0</license>
+		<forum>http://forum.kodi.tv/</forum>
+		<source>https://github.com/espakodi/retrostuary</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
+	</extension>
+</addon>

@@ -1,0 +1,320 @@
+[B]1.0.84[/B]
+• Titulo y contador con el color que toca: las cinco ventanas de PVR y las vistas sin panel de videos, juegos y fotos los dejaban en carbon sobre el escritorio
+• Informacion del sistema y Ajustes de skin: el titulo no se sale del panel (font30_title)
+• El include InfoList lleva parametro de color, como el titulo del TopBar: cinco llamadas caen sobre el panel gris y tres sobre el escritorio, y cada una elige
+• Sinopsis de la lista y etiqueta del siguiente programa de PVR, a carbon sobre gris
+• Cuadritos de las listas de musica, emuladores, ano de las listas, contador del visor de texto y digitos del campo numerico, a carbon sobre gris
+• Fuera los tags de color y textura duplicados (includes de juegos, boton de categoria, DialogAddonSettings): Kodi se quedaba con el ultimo y el XML decia otra cosa
+
+[B]1.0.84[/B]
+• Titulo y contador con el color que toca: las cinco ventanas de PVR y las vistas sin panel de videos, juegos y fotos los dejaban en carbon sobre el teal
+• Informacion del sistema y Ajustes de skin: el titulo no se sale del panel
+• Digitos del campo numerico, cabeceras de PVR, emuladores, ano de las listas y contador del visor de texto, a carbon sobre gris
+• Fuera los tags de color y textura duplicados; Kodi se quedaba con el ultimo y el XML decia otra cosa
+
+[B]1.0.83[/B]
+• Las cuatro variables de juegosequalities a Variables.xml, que es donde Kodi las registra
+• check_skin.py: valida includes, $VAR y assets de las 106 ventanas; el build lo exige
+
+[B]1.0.82[/B]
+• Arreglados tres includes que Kodi ignoraba y dejaban las ventanas sin titulo
+• build_zip.py aborta si un include declara parametros sin <definition> o si aparece un [COLOR=...]
+
+[B]1.0.81[/B]
+• Fichas de video y PVR, info del proceso y RDS: captions legibles sobre el panel oscuro
+• Blancos y grises sobre gris en numeric, media source, color picker, PVR y juegos
+• Grises y navys sobre el teal en registro, sysinfo, View_50/51/53/55 y top bar
+• Arreglado el tag [COLOR=...] mal escrito que Kodi pintaba literal
+• Lista 50 del editor de listas en blanco (cae sobre el escritorio, no sobre un panel)
+
+[B]1.0.80[/B]
+• Acerca de: version real, ficha de dos columnas y boton con bisel Win95
+• Icono de informacion redibujado: 38 px de bola y contorno negro
+
+[B]1.0.79[/B]
+• Boton de informacion en la barra de tareas con el icono Win95 de informacion
+• Ventana Acerca de: autor, version, web y Telegram de EspaKodi
+
+[B]1.0.78[/B]
+• Caja del reloj del TopBar mas compacta, sin mover los digitos
+• Titulos y barra inferior en carbon en las 15 ventanas con panel gris
+
+[B]1.0.77[/B]
+• Gestor de archivos: listas, titulo y barra inferior legibles sobre panel gris
+
+[B]1.0.76[/B]
+• Engranaje de Ajustes en pixel art para el selector de nivel de los ajustes de addons
+• Recuperada la lista de Opciones de energia y la de Buscar (includes mal resueltos)
+
+[B]1.0.75[/B]
+• Segunda pasada de contrastes de revisores
+
+[B]1.0.74[/B]
+• Repaso de revisores: contrastes y navegacion
+
+[B]1.0.73[/B]
+• Info PVR en oscuro y marcos de botonera ceñidos
+
+[B]1.0.72[/B]
+• Engranaje grande y marco completo en menus de botones
+
+[B]1.0.71[/B]
+• Engranaje mas grande en su marco
+
+[B]1.0.70[/B]
+• Engranaje de alta calidad para ajustes
+
+[B]1.0.69[/B]
+• Ventanas emergentes con marco y sombra
+
+[B]1.0.68[/B]
+• Engranaje con llave estilo referencia
+
+[B]1.0.67[/B]
+• Fanart del lanzador sin tinte y negro revertido
+
+[B]1.0.66[/B]
+• Navegador de addons con fanart pleno sobre negro
+
+[B]1.0.65[/B]
+• Engranaje rehecho con dientes y Start recortado
+
+[B]1.0.64[/B]
+• Engranaje grueso con bisel para ajustes
+
+[B]1.0.63[/B]
+• Engranaje grande, radio, TV, PVR y trio propios
+
+[B]1.0.62[/B]
+• Start al filo del blade y menu de apagado en negro
+
+[B]1.0.61[/B]
+• Mando para juegos, serie propia, iconos claros y grandes
+
+[B]1.0.60[/B]
+• Estrella a su tamano e icono de clima pixel-art
+
+[B]1.0.59[/B]
+• Iconos con aire y a color tambien en el principal
+
+[B]1.0.58[/B]
+• Cabeceras del blade con borde claro y nivel en negro
+
+[B]1.0.57[/B]
+• Iconos pixel Win95 libres y Start con margen
+
+[B]1.0.56[/B]
+• Menu arriba del todo, Start al ancho del blade y foco inicial
+
+[B]1.0.55[/B]
+• Grises suavizados y cabeceras del blade en azul legible
+
+[B]1.0.54[/B]
+• Start ancho con quick-launch al lado en la taskbar
+
+[B]1.0.53[/B]
+• Baldosas de categorias en negro sobre gris
+
+[B]1.0.52[/B]
+• Botones del blade lateral en blanco legible
+
+[B]1.0.51[/B]
+• Iconos del lanzador en gris carbon en vez de negro
+
+[B]1.0.50[/B]
+• Iconos del lanzador en negro como el principal
+
+[B]1.0.49[/B]
+• Categorias del lanzador en negro con seleccion fija
+
+[B]1.0.48[/B]
+• Deshabilitados en blanco y cabeceras con borde negro
+
+[B]1.0.47[/B]
+• Filas del navegador de addons en negro; resto intacto
+
+[B]1.0.46[/B]
+• Deshabilitados en gris claro y flechas en negro sobre teal
+
+[B]1.0.45[/B]
+• Campo oscuro hundido solo en listas y mensajes; cuerpos intactos
+
+[B]1.0.44[/B]
+• Cuerpos de dialogo en campo oscuro; texto legible
+
+[B]1.0.43[/B]
+• Relojes 56/40/52 sin bold, sin recorte
+
+[B]1.0.42[/B]
+• Boton cierre X Win95 en ventanas; icono Kodi eliminado
+
+[B]1.0.41[/B]
+• Plot con borde en relieve; relojes con fuente pixel Win95
+
+[B]1.0.40[/B]
+• Categorias en navy solido; violeta eliminado
+
+[B]1.0.39[/B]
+• Plot alineado con la cuna de arriba
+
+[B]1.0.38[/B]
+• Chip compacto con aire, tray centrado, boton EspaKodi
+
+[B]1.0.37[/B]
+• Categorias navy/gris solidos, plot alineado, nivel legible
+
+[B]1.0.36[/B]
+• Chip compacto con aire, digitos del tray centrados
+
+[B]1.0.35[/B]
+• Ajustes addon en negro, plot inset alineado
+
+[B]1.0.34[/B]
+• Autores en gris icono, credito RubenSDFA1laberot, reloj separado del borde
+
+[B]1.0.33[/B]
+• Bordes del campo dentro del relleno, texto con margen
+
+[B]1.0.32[/B]
+• Autor-version en negro, mas legible
+
+[B]1.0.31[/B]
+• Campo plot cenido al texto (normal y episodios)
+
+[B]1.0.30[/B]
+• Cuna oscura tras el thumb del blade
+
+[B]1.0.29[/B]
+• Foco explorador blanco, toggles coherentes, reloj grande
+
+[B]1.0.28[/B]
+• Plot en campo oscuro hundido con textos originales; iconos gris oscuro
+
+[B]1.0.27[/B]
+• Dialogo info addon legible (botones, descripcion, detalles)
+
+[B]1.0.26[/B]
+• Explorador en negro, iconos sin lavar, reloj monoespaciado retro
+
+[B]1.0.25[/B]
+• Renamed to Retrostuary (new id skin.retrostuary); checkbox transparentes; iconos Opciones visibles
+
+[B]1.0.24[/B]
+• Reloj de arena Win95 en vez del spinner
+
+[B]1.0.23[/B]
+• Iconos encendidos, reloj en chip sunken, migas negras, status negro
+
+[B]1.0.22[/B]
+• Textos del panel lateral en negro
+
+[B]1.0.21[/B]
+• Bandas grises fuera en ventanas de contenido
+
+[B]1.0.20[/B]
+• Navy del foco calza exacto en el tile, fuera sombras
+
+[B]1.0.19[/B]
+• Seleccion entera navy con texto e iconos blancos
+
+[B]1.0.18[/B]
+• Foco Start-reloj directo, sin pasar por el task-button
+
+[B]1.0.17[/B]
+• Reloj del tray abre Informacion del sistema
+
+[B]1.0.16[/B]
+• Boton Kodi abre los favoritos
+
+[B]1.0.15[/B]
+• Botones a altura intermedia
+
+[B]1.0.14[/B]
+• Logo superior fuera, botones arriba sin hueco
+
+[B]1.0.13[/B]
+• Logo trazado del oficial, cada pieza un color Microsoft
+
+[B]1.0.12[/B]
+• Logo con la geometria Kodi y colores Microsoft
+
+[B]1.0.11[/B]
+• Boton Kodi con logo de rombos en colores
+
+[B]1.0.10[/B]
+• Bisel viejuno de vuelta, toolbar centrada y sin recortes
+
+[B]1.0.9[/B]
+• IconButtons planos estilo toolbar, reparto sin recortes
+
+[B]1.0.8[/B]
+• Toolbar superior espaciada, botones completos
+
+[B]1.0.7[/B]
+• Banda superior eliminada en el Home
+
+[B]1.0.6[/B]
+• Reloj superior oculto en el Home (queda el del tray)
+
+[B]1.0.5[/B]
+• Start autentico (sunken + flag sin tapar), task-button seccion, reloj en tray, navegacion en anillo
+
+[B]1.0.4[/B]
+• Seleccion navy tras el texto (iconos siempre visibles)
+
+[B]1.0.3[/B]
+• Menu Start funcional, taskbar limpia, IconButtons cuadrados, widgets grises sin zoom
+
+[B]1.0.2[/B]
+• Win95 pass 2: teal puro, sidebar gris, tiles ajustes, taskbar+Start, iconos oscuros, reloj bold
+
+[B]1.0.1[/B]
+• Win95 pass 1: teal desktop, navy selections/titlebars, grey bevel buttons
+
+[B]1.0.0[/B]
+• Fork as Retrouary (new id skin.retrouary) based on Estuary 4.1.0, targeting Kodi 21 Omega
+
+[B]0.8.5[/B]
+• Updated language files from Transifex
+
+[B]0.8.3[/B]
+• Updated language files from Transifex
+
+[B]0.8.2[/B]
+• Updated language files from Transifex
+
+[B]0.8.1[/B]
+• Updated language files from Transifex
+
+[B]0.7.13[/B]
+• Updated language files from Transifex
+
+[B]0.7.12[/B]
+• Updated language files from Transifex
+
+[B]0.7.11[/B]
+• Updated language files from Transifex
+
+[B]0.7.10[/B]
+• Updated language files from Transifex
+
+[B]0.7.8[/B]
+• Updated language files from Transifex
+
+[B]0.7.7[/B]
+• Updated language files from Transifex
+
+[B]0.7.3[/B]
+• Updated language files from Transifex
+
+[B]0.7.1[/B]
+• Updated language files from Transifex
+
+[B]0.6.2[/B]
+• Updated language files from Transifex
+
+[B]0.6.1[/B]
+• Updated language files from Transifex
+
+﻿[B]0.0.1[/B]
+• Initial commit
