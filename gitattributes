@@ -1,0 +1,10 @@
+# GitHub Pages sirve los bytes tal cual; si no fijamos el fin de linea,
+# el addons.xml que se sube puede no ser el mismo que se hashea en local, y el
+# md5 publicado no corresponde con el catalogo servido.
+* text=auto
+addons.xml text eol=lf
+addons.xml.md5 text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.html text eol=lf
+*.zip binary
