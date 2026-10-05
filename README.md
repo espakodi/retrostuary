@@ -3,9 +3,6 @@
 Skin estilo **Windows 95** para **Kodi 21 Omega**, basada en Estuary (phil65 y
 Piers, equipo de Kodi). Mod de RubénSDFA1laberot — EspaKodi.
 
-Este repositorio es el punto de entrada para instalar y actualizar la skin: lo
-instalas una vez y a partir de ahí Kodi se encarga.
-
 ## Instalar desde el repositorio (recomendado)
 
 1. En Kodi: **Ajustes** → **Interfaz** → **Explorador de archivos** →
